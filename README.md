@@ -1,3 +1,15 @@
+# TypeSoft Fork
+
+## Why the Package was forked
+
+The flutter_tts package cannot be used on Windows, as it has incorrect libraries for the build, causing an error in the `CMakeLists.txt`
+
+## Solutions
+
+Updated the CMakeLists.txt. Fixed the incorrect closing bracket and the ARGS argument
+
+- Source: <https://github.com/dlutton/flutter_tts/pull/608>
+
 # Text To Speech
 
 [![pub package](https://img.shields.io/pub/v/flutter_tts.svg?style=for-the-badge&colorB=green)](https://pub.dartlang.org/packages/flutter_tts)
